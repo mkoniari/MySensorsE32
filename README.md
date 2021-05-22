@@ -36,6 +36,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     ```
     These are the module RX,TX and AUX pin connections.
     2. MyConfig.h
+    
     Change line
     ```c
     // TRANSPORT INCLUDES
@@ -63,9 +64,11 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     #elif defined(MY_RADIO_E32)
     #include "hal/transport/E32/MyTransportE32.cpp"
     ```
+    
     3. MyCapabilities.h
-      Optional step in // Transport section
-      Change line
+    Optional step in // Transport section
+    
+    Change line
     ```c
     #if defined(MY_RADIO_RF24) || defined(MY_RADIO_NRF5_ESB)
     #define MY_CAP_RADIO "N"
@@ -78,8 +81,10 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     #define MY_CAP_RADIO "E"
     ```
     4. MySensorsCore.cpp
-     Optional step add a 500ms delay in function sendSketchInfo
-     Change 
+    
+    Optional step add a 500ms delay in function sendSketchInfo
+    
+    Change 
     ```c
      bool sendSketchInfo(const char *name, const char *version, const bool requestEcho)
     {
@@ -112,6 +117,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
 	    return result;
     }
     ```
+    
     5. Make sure to include the new transport (E32) to your nodes/ gateway scketches
     ```c
     #define MY_RADIO_E32
@@ -119,6 +125,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
 
 ## Example
 Sample files Node.ino and E32Gateway.ino
+
 ## Tips ##
 Make sure to include  a short delay betwwen communication attemps within your node
 e.g.
