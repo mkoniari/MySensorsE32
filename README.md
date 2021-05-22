@@ -6,8 +6,8 @@ Tested with MySensors v.2.3.2 and LoRa_E32_Series_Library [https://github.com/xr
 ## Insctruction on how to use ebyte e32 with my sensors
 1. LoRa_E32_Series_Library
     * Download  LoRa_E32_Series_Library from [https://github.com/xreef/LoRa_E32_Series_Library]
-    * Place LoRa_E32.cpp, LoRa_E32.h and statesNaming.h in folder \MySensors\hal\transport\E32\driver
-    (create dir if needed and also modify LoRa_E32.h as needed for statesNaming.h)
+    * Place LoRa_E32.cpp, LoRa_E32.h and includes directory (statesNaming.h) in folder \MySensors\hal\transport\E32\driver
+    (create dir if needed)
 2. E32 Transport for MySensors
     * Place file MyTransportE32.cpp in folder \MySensors\hal\transport\E32\
 3. MySensors config files modifications. 
