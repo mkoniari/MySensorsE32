@@ -126,7 +126,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     ```
 # Caution #
 The ΕΒΥΤΕ E22-400T30D operates on 3.3v
-If using 5v arduino make sure to include proper volatge conversion e.g. 2-Channel Logic Level Converter 3.3V to 5V TTL Bi-directional Module
+If using 5v host e.g., arduino make sure to include proper voltage conversion e.g. 2-Channel Logic Level Converter 3.3V to 5V TTL Bi-directional Module
 
 ## Example
 Sample files garageNode.ino and E32Gateway.ino
