@@ -37,6 +37,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     #endif
     ```
     These are the module RX,TX and AUX pin connections.
+    
     2. MyConfig.h
     
     Change line
@@ -121,9 +122,11 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     ```
     
     5. Make sure to include the new transport (E32) to your nodes/ gateway scketches
+    
     ```c
     #define MY_RADIO_E32
     ```
+    
 # Caution #
 The ΕΒΥΤΕ E22-400T30D operates on 3.3v
 If using 5v host e.g., arduino make sure to include proper voltage conversion e.g. 2-Channel Logic Level Converter 3.3V to 5V TTL Bi-directional Module
