@@ -1,5 +1,5 @@
 # MySensorsE32
-Custom MySensors [https://github.com/mysensors/MySensors] modifications for the ΕΒΥΤΕ E22-400T30D module (LoRa SX1278 SX1276 433MHz rf Module)
+Custom MySensors [https://github.com/mysensors/MySensors] modifications for the ΕΒΥΤΕ E22-400T30D [https://www.ebyte.com/en/product-view-news.html?id=939] module (LoRa SX1278 SX1276 433MHz rf Module)
 Tested with MySensors v.2.3.2 and LoRa_E32_Series_Library [https://github.com/xreef/LoRa_E32_Series_Library] v1.5.0
 ## Insctruction on how to use ebyte e32 with my sensors
 1. LoRa_E32_Series_Library
@@ -124,7 +124,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     ```
 
 ## Example
-Sample files Node.ino and E32Gateway.ino
+Sample files garageNode.ino and E32Gateway.ino
 
 ## Tips ##
 Make sure to include  a short delay betwwen communication attemps within your node
