@@ -18,8 +18,8 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     #define MYLORA_DEFAULT_E32_RX_PIN (9)
     #define MYLORA_DEFAULT_E32_TX_PIN (8)
     #define MYLORA_DEFAULT_E32_AUX_PIN (7)
-    #define MYLORA_DEFAULT_E32_AUX_PIN (10)
-    #define MYLORA_DEFAULT_E32_AUX_PIN (11)
+    #define MYLORA_DEFAULT_E32_M0_PIN (10)
+    #define MYLORA_DEFAULT_E32_M1_PIN (11)
     #ifndef MYLORA_E32_RX_PIN 
     #define MYLORA_E32_RX_PIN  MYLORA_DEFAULT_E32_RX_PIN
     #endif
