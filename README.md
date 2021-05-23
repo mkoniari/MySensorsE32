@@ -48,7 +48,7 @@ Since we define a new transport called 'MY_RADIO_E32' we have to modify the foll
     to 
      ```c
     // TRANSPORT INCLUDES
-    #if defined(MY_RADIO_RF24) || defined(MY_RADIO_NRF5_ESB) || defined(MY_RADIO_RFM69) || defined(MY_RADIO_RFM95) || defined(MY_RS485) || defined(MY_RADIO_E32) || defined(MY_RADIO_ETH)
+    #if defined(MY_RADIO_RF24) || defined(MY_RADIO_NRF5_ESB) || defined(MY_RADIO_RFM69) || defined(MY_RADIO_RFM95) || defined(MY_RS485) || defined(MY_RADIO_E32) 
     ```
     Also at the section // Transport drivers include the MyTransportE32.cpp driver
     For example change from
