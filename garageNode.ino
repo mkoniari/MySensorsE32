@@ -14,7 +14,7 @@
 #define LONG_WAIT 2000
 #define SHORT_WAIT 1000
 
-#define SKETCH_NAME "GarageNodeScetch"
+#define SKETCH_NAME "GarageNodeSketch"
 #define SKETCH_VERSION "v0.1"
 
 
